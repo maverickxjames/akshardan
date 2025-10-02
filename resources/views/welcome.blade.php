@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/vendor/flatpickr/flatpickr.min.css">
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <!-- header -->
         <div class="ul-sidebar-header">
             <div class="ul-sidebar-header-logo">
-                <a href="index.html">
+                <a href="#0">
                     <img src="assets/img/logo.png" alt="logo" class="logo">
                 </a>
             </div>
@@ -45,10 +45,10 @@
             <span class="ul-sidebar-footer-title">Follow us</span>
 
             <div class="ul-sidebar-footer-social">
-                <a href="#"><i class="flaticon-facebook"></i></a>
-                <a href="#"><i class="flaticon-twitter"></i></a>
-                <a href="#"><i class="flaticon-instagram"></i></a>
-                <a href="#"><i class="flaticon-youtube"></i></a>
+                <a href="#0"><i class="flaticon-facebook"></i></a>
+                <a href="#0"><i class="flaticon-twitter"></i></a>
+                <a href="#0"><i class="flaticon-instagram"></i></a>
+                <a href="#0"><i class="flaticon-youtube"></i></a>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
     <div class="ul-search-form-wrapper flex-grow-1 flex-shrink-0">
         <button class="ul-search-closer"><i class="flaticon-close"></i></button>
 
-        <form action="#" class="ul-search-form">
+        <form action="#0" class="ul-search-form">
             <div class="ul-search-form-right">
                 <input type="search" name="search" id="ul-search" placeholder="Search Here">
                 <button type="submit"><span class="icon"><i class="flaticon-search"></i></span></button>
@@ -72,7 +72,7 @@
         <div class="ul-header-bottom to-be-sticky">
             <div class="ul-header-bottom-wrapper ul-header-container">
                 <div class="logo-container">
-                    <a href="index.html" class="d-inline-block"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
+                    <a href="#0" class="d-inline-block"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
                 </div>
 
                 <!-- header nav -->
@@ -84,26 +84,26 @@
 
                                 <div class="ul-header-submenu">
                                     <ul>
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="#0">Home 1</a></li>
+                                        <li><a href="#0">Home 2</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <a href="about.html">About</a>
+                            <a href="#0">About</a>
                             <div class="has-sub-menu">
                                 <a role="button">Pages</a>
 
                                 <div class="ul-header-submenu">
                                     <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                        <li><a href="projects.html">Projects</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-details.html">Team Member Details</a></li>
-                                        <li><a href="pricing.html">Pricing Plans</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="404.html">404</a></li>
+                                        <li><a href="#0">Services</a></li>
+                                        <li><a href="#0">Service Details</a></li>
+                                        <li><a href="#0">Projects</a></li>
+                                        <li><a href="#0">Project Details</a></li>
+                                        <li><a href="#0">Team</a></li>
+                                        <li><a href="#0">Team Member Details</a></li>
+                                        <li><a href="#0">Pricing Plans</a></li>
+                                        <li><a href="#0">FAQs</a></li>
+                                        <li><a href="#0">404</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -113,8 +113,8 @@
 
                                 <div class="ul-header-submenu">
                                     <ul>
-                                        <li><a href="donations.html">Donation Listing</a></li>
-                                        <li><a href="donation-details.html">Donation Details</a></li>
+                                        <li><a href="#0">Donation Listing</a></li>
+                                        <li><a href="#0">Donation Details</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -124,8 +124,8 @@
 
                                 <div class="ul-header-submenu">
                                     <ul>
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="event-details.html">Event Details</a></li>
+                                        <li><a href="#0">Events</a></li>
+                                        <li><a href="#0">Event Details</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,13 +135,13 @@
 
                                 <div class="ul-header-submenu">
                                     <ul>
-                                        <li><a href="blog.html">Blogs</a></li>
-                                        <li><a href="blog-2.html">Blogs Layout 2</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                        <li><a href="#0">Blogs</a></li>
+                                        <li><a href="#0">Blogs Layout 2</a></li>
+                                        <li><a href="#0">Blog Details</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <a href="contact.html">Contact</a>
+                            <a href="#0">Contact</a>
                         </nav>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                 <!-- actions -->
                 <div class="ul-header-actions">
                     <button class="ul-header-search-opener"><i class="flaticon-search"></i></button>
-                    <a href="contact.html" class="ul-btn d-sm-inline-flex d-none"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us </a>
+                    <a href="#0" class="ul-btn d-sm-inline-flex d-none"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us </a>
                     <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-menu"></i></button>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                                 <h1 class="ul-banner-title" style="line-height: 1.2em" >अनाथ व गरीब बच्चों को पेन, पेंसिल, स्लेट व स्कूल बैग बाँटना</h1>
                                 <p class="ul-banner-descr"> <strong>हमारा दृष्टिकोण : </strong> एक ऐसे समाज का निर्माण करना जहाँ प्रत्येक व्यक्ति समर्थित, सशक्त और मूल्यवान हो। हम गरीबी और लाचारी के संघर्षों से मुक्त दुनिया की कल्पना करते हैं, जहाँ करुणा और सेवा मार्गदर्शक सिद्धांत हों।</p>
                                 <div class="ul-banner-btns">
-                                    <a href="donations.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Make Donation</a>
+                                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Make Donation</a>
 
                                     <div class="ul-banner-stat">
                                         <div class="imgs">
@@ -248,13 +248,13 @@
                             </div>
 
                             <div class="ul-about-bottom">
-                                <a href="about.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
+                                <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
 
                                 <div class="ul-about-call">
                                     <div class="icon"><i class="flaticon-telephone-call"></i></div>
                                     <div class="txt">
                                         <span class="call-title">Call Any Time</span>
-                                        <a href="tel:+612345678990">+61 2345 678 990</a>
+                                        <a href="tel:+919893650250">+91 98936 50250</a>
                                     </div>
                                 </div>
                             </div>
@@ -307,8 +307,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-1.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/school.png" alt="donation Image">
+                                    <span class="tag">BLOCK COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -318,13 +318,13 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Project Fund : ₹21,000</span>
+                                            <span class="ul-donation-progress-label">Reward : ₹7,000</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">ब्लॉक कोऑर्डिनेटर (BLOCK COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: अनाथ व ग़रीब बच्चों को पेन, पेंसिल, स्लेट व स्कूल बैग बाँटना ।</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -333,8 +333,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-2.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/ev-sccoty.png" alt="donation Image">
+                                    <span class="tag">BRANCH COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -344,13 +344,13 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Project Fund : ₹100,000</span>
+                                            <span class="ul-donation-progress-label">Reward : EV Scooty</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">ब्रांच कोऑर्डिनेटर (BRANCH COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: बेसहारा सहयोग सेवा योजना <br> बेसहारा लोगों को कंबल, कपड़े, खाना व दवाइयाँ बाँटना</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -359,8 +359,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-3.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/bike.png" alt="donation Image">
+                                    <span class="tag">DISTRICT COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -370,13 +370,13 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Fund : ₹5,51,000</span>
+                                            <span class="ul-donation-progress-label">Reward : Bike</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">डिस्ट्रिक्ट कोऑर्डिनेटर (DISTRICT COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: विधवा व दिव्यांग सहायता योजना <br>5 विधवाओं को सिलाई मशीन व 5 दिव्यांगों को व्हीलचेयर/साइकिल बाँटना</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -385,8 +385,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-4.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/alto.png" alt="donation Image">
+                                    <span class="tag">STATE COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -396,13 +396,13 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Fund : ₹15,00,000</span>
+                                            <span class="ul-donation-progress-label">Reward : Alto Car</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">स्टेट कोऑर्डिनेटर (STATE COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: गौ ग्रास वाहन सहयोग योजना <br> आपके नगर में गौ ग्रास वाहन संचालित करना</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -411,8 +411,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-1.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/swift.png" alt="donation Image">
+                                    <span class="tag">NATIONAL COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -422,13 +422,13 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Fund : ₹51,00,000</span>
+                                            <span class="ul-donation-progress-label">Reward : 1 Swift Car</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">नेशनल कोऑर्डिनेटर (NATIONAL COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: वृद्ध तीर्थ यात्रा योजना <br>20 ग़रीब महिलाओं को 1 धाम यात्रा ।</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -437,8 +437,8 @@
                         <div class="swiper-slide">
                             <div class="ul-donation">
                                 <div class="ul-donation-img">
-                                    <img src="assets/img/donation-2.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
+                                    <img src="assets/img/scorpio.png" alt="donation Image">
+                                    <span class="tag">REPUBLIC COORDINATOR</span>
                                 </div>
                                 <div class="ul-donation-txt">
                                     <div class="ul-donation-progress">
@@ -448,68 +448,18 @@
                                             </div>
                                         </div>
                                         <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                            <span class="ul-donation-progress-label">Fund : ₹1 करोड़ </span>
+                                            <span class="ul-donation-progress-label">Reward : Scorpio Car</span>
                                         </div>
                                     </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
+                                    <a href="#0" class="ul-donation-title">रिपब्लिक कोऑर्डिनेटर (REPUBLIC COORDINATOR)</a>
+                                    <p class="ul-donation-descr">प्रोजेक्ट: अनाथ व गरीब बेटियों के सामूहिक विवाह सम्मेलन योजना (11 जोड़े)</p>
+                                    <a href="#0" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- single item -->
-                        <div class="swiper-slide">
-                            <div class="ul-donation">
-                                <div class="ul-donation-img">
-                                    <img src="assets/img/donation-3.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
-                                </div>
-                                <div class="ul-donation-txt">
-                                    <div class="ul-donation-progress">
-                                        <div class="donation-progress-container ul-progress-container">
-                                            <div class="donation-progressbar ul-progressbar" data-ul-progress-value="50">
-                                                <div class="donation-progress-label ul-progress-label"></div>
-                                            </div>
-                                        </div>
-                                        <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
-                                        </div>
-                                    </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- single item -->
-                        <div class="swiper-slide">
-                            <div class="ul-donation">
-                                <div class="ul-donation-img">
-                                    <img src="assets/img/donation-4.jpg" alt="donation Image">
-                                    <span class="tag">Foods</span>
-                                </div>
-                                <div class="ul-donation-txt">
-                                    <div class="ul-donation-progress">
-                                        <div class="donation-progress-container ul-progress-container">
-                                            <div class="donation-progressbar ul-progressbar" data-ul-progress-value="64">
-                                                <div class="donation-progress-label ul-progress-label"></div>
-                                            </div>
-                                        </div>
-                                        <div class="ul-donation-progress-labels">
-                                            <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                            <span class="ul-donation-progress-label">Goal : $30,000</span>
-                                        </div>
-                                    </div>
-                                    <a href="donation-details.html" class="ul-donation-title">Lifes kills for Children in South African peoples</a>
-                                    <p class="ul-donation-descr">We work together to make a lasting difference, helping people. With kindness and hard work</p>
-                                    <a href="donation-details.html" class="ul-donation-btn">Donate now <i class="flaticon-up-right-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    
                     </div>
 
                     <div class="ul-dontations-slider-pagination d-none"></div>
@@ -531,27 +481,27 @@
                                 <form action="#" class="ul-donate-form">
                                     <div>
                                         <input type="radio" name="donate-amount" id="donate-amount-1" checked hidden>
-                                        <label for="donate-amount-1" class="ul-donate-form-label">$10</label>
+                                        <label for="donate-amount-1" class="ul-donate-form-label">₹10</label>
                                     </div>
 
                                     <div>
                                         <input type="radio" name="donate-amount" id="donate-amount-2" hidden>
-                                        <label for="donate-amount-2" class="ul-donate-form-label">$20</label>
+                                        <label for="donate-amount-2" class="ul-donate-form-label">₹20</label>
                                     </div>
 
                                     <div>
                                         <input type="radio" name="donate-amount" id="donate-amount-3" hidden>
-                                        <label for="donate-amount-3" class="ul-donate-form-label">$30</label>
+                                        <label for="donate-amount-3" class="ul-donate-form-label">₹30</label>
                                     </div>
 
                                     <div>
                                         <input type="radio" name="donate-amount" id="donate-amount-4" hidden>
-                                        <label for="donate-amount-4" class="ul-donate-form-label">$40</label>
+                                        <label for="donate-amount-4" class="ul-donate-form-label">₹40</label>
                                     </div>
 
                                     <div>
                                         <input type="radio" name="donate-amount" id="donate-amount-5" hidden>
-                                        <label for="donate-amount-5" class="ul-donate-form-label">$50</label>
+                                        <label for="donate-amount-5" class="ul-donate-form-label">₹50</label>
                                     </div>
 
                                     <div class="custom-amount-wrapper">
@@ -582,8 +532,8 @@
                                         </div>
                                     </div>
                                     <div class="ul-donation-progress-labels">
-                                        <span class="ul-donation-progress-label">Raised : $25,000</span>
-                                        <span class="ul-donation-progress-label">Goal : $30,000</span>
+                                        <span class="ul-donation-progress-label">Raised : ₹25,000</span>
+                                        <span class="ul-donation-progress-label">Goal : ₹30,000</span>
                                     </div>
                                 </div>
                             </div>
@@ -647,7 +597,7 @@
                         <span class="ul-section-sub-title">Upcoming Events</span>
                         <h2 class="ul-section-title text-white">Charitics Information Of Event Schedule</h2>
                     </div>
-                    <a href="events.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
+                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
                 </div>
 
                 <!-- events -->
@@ -661,13 +611,13 @@
                                     <span class="date">29 <span>July</span></span>
                                 </div>
                                 <div class="ul-event-txt">
-                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <h3 class="ul-event-title"><a href="#0">Manager Disapproved of the Most Recent Work.</a></h3>
                                     <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
                                     <div class="ul-event-info">
                                         <span class="ul-event-info-title">Venue</span>
-                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                        <p class="ul-event-info-descr">45 - F, Jawahar Nagar, New Delhi</p>
                                     </div>
-                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                                 </div>
                             </div>
                         </div>
@@ -680,13 +630,13 @@
                                     <span class="date">29 <span>July</span></span>
                                 </div>
                                 <div class="ul-event-txt">
-                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <h3 class="ul-event-title"><a href="#0">Manager Disapproved of the Most Recent Work.</a></h3>
                                     <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
                                     <div class="ul-event-info">
                                         <span class="ul-event-info-title">Venue</span>
-                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                        <p class="ul-event-info-descr">45 - F, Jawahar Nagar, New Delhi</p>
                                     </div>
-                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                                 </div>
                             </div>
                         </div>
@@ -699,13 +649,13 @@
                                     <span class="date">29 <span>July</span></span>
                                 </div>
                                 <div class="ul-event-txt">
-                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <h3 class="ul-event-title"><a href="#0">Manager Disapproved of the Most Recent Work.</a></h3>
                                     <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
                                     <div class="ul-event-info">
                                         <span class="ul-event-info-title">Venue</span>
-                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                        <p class="ul-event-info-descr">45 - F, Jawahar Nagar, New Delhi</p>
                                     </div>
-                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                                 </div>
                             </div>
                         </div>
@@ -718,13 +668,13 @@
                                     <span class="date">29 <span>July</span></span>
                                 </div>
                                 <div class="ul-event-txt">
-                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <h3 class="ul-event-title"><a href="#0">Manager Disapproved of the Most Recent Work.</a></h3>
                                     <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
                                     <div class="ul-event-info">
                                         <span class="ul-event-info-title">Venue</span>
-                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                        <p class="ul-event-info-descr">45 - F, Jawahar Nagar, New Delhi</p>
                                     </div>
-                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                    <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
                                 </div>
                             </div>
                         </div>
@@ -818,7 +768,7 @@
                         <h2 class="ul-section-title">Skilled Legal Professionals Dedicated to You</h2>
                     </div>
                     <div>
-                        <a href="team.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
+                        <a href="#0" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
                     </div>
                 </div>
 
@@ -827,17 +777,17 @@
                     <div class="col">
                         <div class="ul-team-member">
                             <div class="ul-team-member-img">
-                                <img src="assets/img/member-1.jpg" alt="Team Member Image">
+                                <img src="assets/img/member-2.jpg" alt="Team Member Image">
                                 <div class="ul-team-member-socials">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                    <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
+                                    <a href="#0"><i class="flaticon-facebook"></i></a>
+                                    <a href="#0"><i class="flaticon-twitter"></i></a>
+                                    <a href="#0"><i class="flaticon-linkedin-big-logo"></i></a>
+                                    <a href="#0"><i class="flaticon-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="ul-team-member-info">
-                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                <p class="ul-team-member-designation">Attorney</p>
+                                <h3 class="ul-team-member-name"><a href="#0">निर्मल कुमार राठोर </a></h3>
+                                <p class="ul-team-member-designation">राष्ट्रीय अध्यक्ष </p>
                             </div>
                         </div>
                     </div>
@@ -848,15 +798,15 @@
                             <div class="ul-team-member-img">
                                 <img src="assets/img/member-2.jpg" alt="Team Member Image">
                                 <div class="ul-team-member-socials">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                    <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
+                                    <a href="#0"><i class="flaticon-facebook"></i></a>
+                                    <a href="#0"><i class="flaticon-twitter"></i></a>
+                                    <a href="#0"><i class="flaticon-linkedin-big-logo"></i></a>
+                                    <a href="#0"><i class="flaticon-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="ul-team-member-info">
-                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                <p class="ul-team-member-designation">Attorney</p>
+                                <h3 class="ul-team-member-name"><a href="#0">राधे बाघेला </a></h3>
+                                <p class="ul-team-member-designation">राष्ट्रीय कोषाध्यक्ष </p>
                             </div>
                         </div>
                     </div>
@@ -865,39 +815,39 @@
                     <div class="col">
                         <div class="ul-team-member">
                             <div class="ul-team-member-img">
-                                <img src="assets/img/member-3.jpg" alt="Team Member Image">
+                                <img src="assets/img/member-2.jpg" alt="Team Member Image">
                                 <div class="ul-team-member-socials">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                    <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
+                                    <a href="#0"><i class="flaticon-facebook"></i></a>
+                                    <a href="#0"><i class="flaticon-twitter"></i></a>
+                                    <a href="#0"><i class="flaticon-linkedin-big-logo"></i></a>
+                                    <a href="#0"><i class="flaticon-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="ul-team-member-info">
-                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
-                                <p class="ul-team-member-designation">Attorney</p>
+                                <h3 class="ul-team-member-name"><a href="#0">अनुराग शर्मा </a></h3>
+                                <p class="ul-team-member-designation">राष्ट्रीय सचिव </p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- single member -->
+                    {{-- <!-- single member -->
                     <div class="col">
                         <div class="ul-team-member">
                             <div class="ul-team-member-img">
                                 <img src="assets/img/member-4.jpg" alt="Team Member Image">
                                 <div class="ul-team-member-socials">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-twitter"></i></a>
-                                    <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
+                                    <a href="#0"><i class="flaticon-facebook"></i></a>
+                                    <a href="#0"><i class="flaticon-twitter"></i></a>
+                                    <a href="#0"><i class="flaticon-linkedin-big-logo"></i></a>
+                                    <a href="#0"><i class="flaticon-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="ul-team-member-info">
-                                <h3 class="ul-team-member-name"><a href="team-details.html">John Doe</a></h3>
+                                <h3 class="ul-team-member-name"><a href="#0">John Doe</a></h3>
                                 <p class="ul-team-member-designation">Attorney</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -926,13 +876,13 @@
                                     <i class="flaticon-star"></i>
                                     <i class="flaticon-star-1"></i>
                                 </div>
-                                <p class="ul-review-descr">Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan.</p>
+                                <p class="ul-review-descr">आपके संगठन ने हमारी बस्ती के बच्चों को शिक्षा से जोड़कर नई रोशनी दी है। अब हमें यक़ीन है कि उनका भविष्य उज्ज्वल होगा।</p>
                                 <div class="ul-review-bottom">
                                     <div class="ul-review-reviewer">
                                         <div class="reviewer-image"><img src="assets/img/member-1.jpg" alt="reviewer image"></div>
                                         <div>
-                                            <h3 class="reviewer-name">Esther Howard</h3>
-                                            <span class="reviewer-role">Web Designer</span>
+                                            <h3 class="reviewer-name">Geeta Bai</h3>
+                                            <span class="reviewer-role">गृहणी </span>
                                         </div>
                                     </div>
 
@@ -952,13 +902,13 @@
                                     <i class="flaticon-star"></i>
                                     <i class="flaticon-star-1"></i>
                                 </div>
-                                <p class="ul-review-descr">Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan.</p>
+                                <p class="ul-review-descr">गरीब परिवारों को स्वास्थ्य सेवाएँ पहुँचाने का जो कार्य आप कर रहे हैं, वह वाकई सराहनीय है। आपने हमें आशा दी है।</p>
                                 <div class="ul-review-bottom">
                                     <div class="ul-review-reviewer">
                                         <div class="reviewer-image"><img src="assets/img/member-2.jpg" alt="reviewer image"></div>
                                         <div>
-                                            <h3 class="reviewer-name">Esther Howard</h3>
-                                            <span class="reviewer-role">Web Designer</span>
+                                            <h3 class="reviewer-name">अजय कुमार</h3>
+                                            <span class="reviewer-role">दुकानदार </span>
                                         </div>
                                     </div>
 
@@ -978,13 +928,13 @@
                                     <i class="flaticon-star"></i>
                                     <i class="flaticon-star-1"></i>
                                 </div>
-                                <p class="ul-review-descr">Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan.</p>
+                                <p class="ul-review-descr">आपके सहयोग से हमने रोज़गार के नए अवसर पाए। अब हम अपने पैरों पर खड़े हो पा रहे हैं।</p>
                                 <div class="ul-review-bottom">
                                     <div class="ul-review-reviewer">
                                         <div class="reviewer-image"><img src="assets/img/member-3.jpg" alt="reviewer image"></div>
                                         <div>
-                                            <h3 class="reviewer-name">Esther Howard</h3>
-                                            <span class="reviewer-role">Web Designer</span>
+                                            <h3 class="reviewer-name">सुनीता देवी </h3>
+                                            <span class="reviewer-role">सिलाई कारीगर</span>
                                         </div>
                                     </div>
 
@@ -1004,13 +954,13 @@
                                     <i class="flaticon-star"></i>
                                     <i class="flaticon-star-1"></i>
                                 </div>
-                                <p class="ul-review-descr">Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan.</p>
+                                <p class="ul-review-descr">एनजीओ द्वारा चलाए गए प्रशिक्षण कार्यक्रम ने युवाओं को आत्मनिर्भर बनने का मार्ग दिखाया है। यह समाज के लिए बहुत बड़ा योगदान है।</p>
                                 <div class="ul-review-bottom">
                                     <div class="ul-review-reviewer">
                                         <div class="reviewer-image"><img src="assets/img/member-4.jpg" alt="reviewer image"></div>
                                         <div>
-                                            <h3 class="reviewer-name">Esther Howard</h3>
-                                            <span class="reviewer-role">Web Designer</span>
+                                            <h3 class="reviewer-name">रवि शर्मा </h3>
+                                            <span class="reviewer-role">रिक्शा चालक</span>
                                         </div>
                                     </div>
 
@@ -1030,13 +980,13 @@
                                     <i class="flaticon-star"></i>
                                     <i class="flaticon-star-1"></i>
                                 </div>
-                                <p class="ul-review-descr">Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan.</p>
+                                <p class="ul-review-descr">आपके प्रयासों से हमारी गाँव की महिलाओं को आत्मविश्वास और स्वावलंबन मिला है। अब हम अपने अधिकारों के प्रति जागरूक हैं।</p>
                                 <div class="ul-review-bottom">
                                     <div class="ul-review-reviewer">
                                         <div class="reviewer-image"><img src="assets/img/member-1.jpg" alt="reviewer image"></div>
                                         <div>
-                                            <h3 class="reviewer-name">Esther Howard</h3>
-                                            <span class="reviewer-role">Web Designer</span>
+                                            <h3 class="reviewer-name">कविता मिश्रा</h3>
+                                            <span class="reviewer-role">आंगनवाड़ी कार्यकर्ता</span>
                                         </div>
                                     </div>
 
@@ -1099,8 +1049,8 @@
                                                     <span class="text font-normal text-[14px] text-etGray">Donation</span>
                                                 </div>
                                             </div>
-                                            <a href="blog-details.html" class="ul-blog-title">Give Education, It’s The Best Gift Ever.</a>
-                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                            <a href="#0" class="ul-blog-title">Give Education, It’s The Best Gift Ever.</a>
+                                            <a href="#0" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1127,8 +1077,8 @@
                                                     <span class="text font-normal text-[14px] text-etGray">Donation</span>
                                                 </div>
                                             </div>
-                                            <a href="blog-details.html" class="ul-blog-title">Don’t treat oceans as universal garbage cans</a>
-                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                            <a href="#0" class="ul-blog-title">Don’t treat oceans as universal garbage cans</a>
+                                            <a href="#0" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1155,8 +1105,8 @@
                                                     <span class="text font-normal text-[14px] text-etGray">Donation</span>
                                                 </div>
                                             </div>
-                                            <a href="blog-details.html" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
-                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                            <a href="#0" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
+                                            <a href="#0" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1183,8 +1133,8 @@
                                                     <span class="text font-normal text-[14px] text-etGray">Donation</span>
                                                 </div>
                                             </div>
-                                            <a href="blog-details.html" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
-                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                            <a href="#0" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
+                                            <a href="#0" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1287,7 +1237,7 @@
                         <!-- txt -->
                         <div class="ul-footer-top-contact-info-txt">
                             <span class="ul-footer-top-contact-info-label">Address</span>
-                            <h5 class="ul-footer-top-contact-info-address">4648 Rocky Road Philadelphia PA, 1920</h5>
+                            <h5 class="ul-footer-top-contact-info-address">समाजसेवी संस्थान, उज्जैन, मध्य प्रदेश</h5>
                         </div>
                     </div>
 
@@ -1317,7 +1267,7 @@
                         <!-- txt -->
                         <div class="ul-footer-top-contact-info-txt">
                             <span class="ul-footer-top-contact-info-label">Call Emergency</span>
-                            <h5 class="ul-footer-top-contact-info-address"><a href="tel:88012365499">+88 0123 654 99</a></h5>
+                            <h5 class="ul-footer-top-contact-info-address"><a href="tel:919893650250">+91 98936 50250</a></h5>
                         </div>
                     </div>
                 </div>
@@ -1328,13 +1278,13 @@
             <div class="ul-footer-container">
                 <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about">
-                        <a href="index.html"><img src="assets/img/logo-white.svg" alt="logo" class="logo"></a>
-                        <p class="ul-footer-about-txt">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+                        <a href="#0"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
+                        <p class="ul-footer-about-txt">अनाथ व गरीब बच्चों को पेन, पेंसिल, स्लेट व स्कूल बैग बाँटना</p>
                         <div class="ul-footer-socials">
-                            <a href="#"><i class="flaticon-facebook"></i></a>
-                            <a href="#"><i class="flaticon-twitter"></i></a>
-                            <a href="#"><i class="flaticon-linkedin-big-logo"></i></a>
-                            <a href="#"><i class="flaticon-youtube"></i></a>
+                            <a href="#0"><i class="flaticon-facebook"></i></a>
+                            <a href="#0"><i class="flaticon-twitter"></i></a>
+                            <a href="#0"><i class="flaticon-linkedin-big-logo"></i></a>
+                            <a href="#0"><i class="flaticon-youtube"></i></a>
                         </div>
                     </div>
 
@@ -1342,15 +1292,15 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="about.html">About Us</a>
-                            <a href="services.html">Our Services</a>
-                            <a href="blog.html">Our Blogs</a>
-                            <a href="faq.html">FAQ’S</a>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="#0">About Us</a>
+                            <a href="#0">Our Services</a>
+                            <a href="#0">Our Blogs</a>
+                            <a href="#0">FAQ’S</a>
+                            <a href="#0">Contact Us</a>
                         </div>
                     </div>
 
-                    <div class="ul-footer-widget ul-footer-recent-posts">
+                    {{-- <div class="ul-footer-widget ul-footer-recent-posts">
                         <h3 class="ul-footer-widget-title">Recent Posts</h3>
 
                         <div class="ul-blog-sidebar-posts">
@@ -1366,7 +1316,7 @@
                                         <span>May 12, 2025</span>
                                     </span>
 
-                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                    <h4 class="title"><a href="#0">There are many vario ns of passages of</a></h4>
                                 </div>
                             </div>
 
@@ -1382,19 +1332,19 @@
                                         <span>May 12, 2025</span>
                                     </span>
 
-                                    <h4 class="title"><a href="blog-details.html">There are many vario ns of passages of</a></h4>
+                                    <h4 class="title"><a href="#0">There are many vario ns of passages of</a></h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="ul-footer-widget ul-nwsltr-widget">
                         <h3 class="ul-footer-widget-title">Contact Us</h3>
                         <div class="ul-footer-widget-links ul-footer-contact-links">
                             <a href="mailto:info@example.com"><i class="flaticon-mail"></i> info@example.com</a>
-                            <a href="tel:123-456-7890"><i class="flaticon-telephone-call"></i> 123-456-7890</a>
+                            <a href="tel:919893650250"><i class="flaticon-telephone-call"></i> +91 98936 50250</a>
                         </div>
-                        <form action="#" class="ul-nwsltr-form">
+                        <form action="#0" class="ul-nwsltr-form">
                             <div class="top">
                                 <input type="email" name="email" id="nwsltr-email" placeholder="Your Email Address" class="ul-nwsltr-input">
                                 <button type="submit"><i class="flaticon-next"></i></button>
@@ -1404,7 +1354,7 @@
                                 <label for="nwsltr-agreement" class="ul-checkbox-wrapper">
                                     <input type="checkbox" name="agreement" id="nwsltr-agreement" hidden>
                                     <span class="ul-checkbox"><i class="flaticon-tick"></i></span>
-                                    <span class="ul-checkbox-txt">I agree with the <a href="#">Privacy Policy</a></span>
+                                    <span class="ul-checkbox-txt">I agree with the <a href="#0">Privacy Policy</a></span>
                                 </label>
                             </div>
                         </form>
@@ -1418,9 +1368,9 @@
             <div class="ul-footer-container">
                 <div class="ul-footer-bottom-wrapper">
                     <p class="copyright-txt">&copy;
-                        <span id="footer-copyright-year"></span> Charitics. All rights reserved
+                        <span id="footer-copyright-year"></span> Akshardan Foundation. All rights reserved
                     </p>
-                    <div class="ul-footer-bottom-nav"><a href="#">Terms & Conditions</a> <a href="#">Privacy Policy</a></div>
+                    <div class="ul-footer-bottom-nav"><a href="#0">Terms & Conditions</a> <a href="#0">Privacy Policy</a></div>
                 </div>
             </div>
         </div>
